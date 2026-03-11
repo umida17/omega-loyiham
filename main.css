@@ -47,4 +47,64 @@ header .container .header-omega a {
 }
 header .container .header-omega a:hover {
   color: #F04037;
+}
+header .container .header-container {
+  display: flex;
+  align-items: center;
+}
+header .container .header-container .more {
+  width: 542px;
+}
+header .container .header-container .more h3 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -1.88px;
+  color: #19191B;
+  margin-bottom: 29px;
+}
+header .container .header-container .more p {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 39px;
+  letter-spacing: -0.66px;
+  color: #696871;
+  margin-bottom: 40px;
+  width: 500px;
+}
+header .container .header-container .more form {
+  width: 480px;
+  height: 65px;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid #EAE9F2;
+}
+header .container .header-container .more form i {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 23px;
+  color: #696871;
+}
+header .container .header-container .more form .email {
+  padding-top: 20px;
+  padding-left: 8px;
+  border: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: -0.56px;
+  color: #696871;
+}
+header .container .header-container .more form button {
+  width: 170px;
+  height: 53px;
+  margin-top: 4px;
+  margin-left: 20px;
+  border: 1px solid #C31A12;
+  border-radius: 5px;
+  background: #F04037;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
 }/*# sourceMappingURL=main.css.map */
