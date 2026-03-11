@@ -123,9 +123,8 @@ main .section1 {
 }
 main .section1 .container .section1-container {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  gap: 170px;
+  gap: 140px;
   margin-top: 152px;
 }
 main .section1 .container .section1-container .cards .card {
@@ -178,7 +177,7 @@ main .section1 .container .section1-container .cards .card1 .yumaloqcha img {
   padding-left: 20px;
   padding-bottom: 20px;
   padding-right: 20px;
-  background: rgba(240, 64, 55, 0.0980392157);
+  background: rgba(84, 84, 212, 0.1019607843);
   border-radius: 40%;
   margin-left: 20px;
 }
@@ -213,7 +212,7 @@ main .section1 .container .section1-container .cards .card2 .yumaloqcha img {
   padding-left: 20px;
   padding-bottom: 20px;
   padding-right: 20px;
-  background: rgba(240, 64, 55, 0.0980392157);
+  background: rgba(65, 62, 101, 0.1019607843);
   border-radius: 40%;
   margin-left: 20px;
 }
@@ -232,4 +231,24 @@ main .section1 .container .section1-container .cards .card2 .multiple p {
   letter-spacing: -0.5px;
   color: #696871;
   width: 240px;
+}
+main .section1 .container .section1-container .section1-perfect {
+  width: 500px;
+  margin-top: 69px;
+}
+main .section1 .container .section1-container .section1-perfect h3 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -1.88px;
+  color: white;
+  margin-bottom: 18px;
+}
+main .section1 .container .section1-container .section1-perfect p {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 39px;
+  letter-spacing: -0.66px;
+  color: rgba(255, 255, 255, 0.7019607843);
+  margin-bottom: 40px;
 }/*# sourceMappingURL=main.css.map */
