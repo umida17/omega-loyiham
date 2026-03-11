@@ -14,7 +14,7 @@ header {
   background-image: url(./img/BG\ \(3\).png);
   background-repeat: no-repeat;
   background-position: center;
-  height: 800px;
+  height: 850px;
 }
 header .container .header-omega {
   display: flex;
@@ -107,4 +107,11 @@ header .container .header-container .more form button {
   font-weight: 500;
   font-size: 18px;
   line-height: 100%;
+}
+header .container .header-container .dumaloq {
+  margin-top: -340px;
+}
+header .container .header-container .dumaloq2 {
+  padding-top: 250px;
+  padding-left: 200px;
 }/*# sourceMappingURL=main.css.map */
