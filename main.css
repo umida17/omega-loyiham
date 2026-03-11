@@ -136,6 +136,7 @@ main .section1 .container .section1-container .cards .card {
   display: flex;
   gap: 22px;
   margin-bottom: 25px;
+  transition: 0.7s ease-in-out;
 }
 main .section1 .container .section1-container .cards .card .yumaloqcha img {
   padding-top: 20px;
@@ -162,6 +163,9 @@ main .section1 .container .section1-container .cards .card .multiple p {
   color: #696871;
   width: 240px;
 }
+main .section1 .container .section1-container .cards .card:hover {
+  transform: scale(0.9);
+}
 main .section1 .container .section1-container .cards .card1 {
   width: 389px;
   height: 154px;
@@ -171,6 +175,7 @@ main .section1 .container .section1-container .cards .card1 {
   display: flex;
   gap: 22px;
   margin-bottom: 25px;
+  transition: 0.7s ease-in-out;
 }
 main .section1 .container .section1-container .cards .card1 .yumaloqcha img {
   padding-top: 20px;
@@ -197,6 +202,9 @@ main .section1 .container .section1-container .cards .card1 .multiple p {
   color: #696871;
   width: 240px;
 }
+main .section1 .container .section1-container .cards .card1:hover {
+  transform: scale(0.9);
+}
 main .section1 .container .section1-container .cards .card2 {
   width: 389px;
   height: 154px;
@@ -206,6 +214,7 @@ main .section1 .container .section1-container .cards .card2 {
   display: flex;
   gap: 22px;
   margin-bottom: 25px;
+  transition: 0.7s ease-in-out;
 }
 main .section1 .container .section1-container .cards .card2 .yumaloqcha img {
   padding-top: 20px;
@@ -232,6 +241,9 @@ main .section1 .container .section1-container .cards .card2 .multiple p {
   color: #696871;
   width: 240px;
 }
+main .section1 .container .section1-container .cards .card2:hover {
+  transform: scale(0.9);
+}
 main .section1 .container .section1-container .section1-perfect {
   width: 500px;
   margin-top: 69px;
@@ -251,4 +263,42 @@ main .section1 .container .section1-container .section1-perfect p {
   letter-spacing: -0.66px;
   color: rgba(255, 255, 255, 0.7019607843);
   margin-bottom: 40px;
+}
+main .section1 .container .section1-container .section1-perfect button {
+  position: relative;
+  overflow: hidden;
+  transform: translateZ(0);
+  display: grid;
+  place-items: center;
+  height: 64px;
+  padding: 0 32px;
+  border: 0;
+  border-radius: 10px;
+  font-family: Poppins;
+  font-size: 18px;
+  color: #ffffff;
+  cursor: wait;
+}
+@keyframes loading {
+  0% {
+    transform: translateX(25px);
+  }
+  100% {
+    transform: translateX(-20px);
+  }
+}
+main .section1 .container .section1-container .section1-perfect button > span {
+  position: relative;
+  z-index: 2;
+}
+main .section1 .container .section1-container .section1-perfect button::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: -100%;
+  top: 0;
+  width: 300%;
+  height: 100%;
+  background: #F04037 repeating-linear-gradient(60deg, transparent, transparent 10px, #F04037 10px, #ede2fd 20px);
+  animation: loading 1s infinite linear;
 }/*# sourceMappingURL=main.css.map */

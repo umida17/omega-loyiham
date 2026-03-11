@@ -129,6 +129,7 @@ main{
                gap: 140px;
                margin-top: 152px;
                .cards{
+                
                   .card{
                     width: 389px;
                     height: 154px;
@@ -138,6 +139,7 @@ main{
                     display: flex;
                     gap: 22px;
                     margin-bottom: 25px;
+                     transition: 0.7s ease-in-out;
                     .yumaloqcha{
                         img{
                             padding-top: 20px;
@@ -170,6 +172,9 @@ main{
                       }
                     }
                 }
+                .card:hover{
+                    transform: scale(0.9);
+                }
 
                    .card1{
                     width: 389px;
@@ -180,6 +185,7 @@ main{
                     display: flex;
                     gap: 22px;
                     margin-bottom: 25px;
+                     transition: 0.7s ease-in-out;
                     .yumaloqcha{
                         img{
                             padding-top: 20px;
@@ -213,6 +219,10 @@ main{
                     }
                 }
 
+                 .card1:hover{
+                    transform: scale(0.9);
+                }
+
                    .card2{
                     width: 389px;
                     height: 154px;
@@ -222,6 +232,7 @@ main{
                     display: flex;
                     gap: 22px;
                     margin-bottom: 25px;
+                     transition: 0.7s ease-in-out;
                     .yumaloqcha{
                         img{
                             padding-top: 20px;
@@ -254,6 +265,9 @@ main{
                       }
                     }
                 }
+                 .card2:hover{
+                    transform: scale(0.9);
+                }
 
                }
 
@@ -277,8 +291,54 @@ main{
                     margin-bottom: 40px;
                 }
 
-                button{
-                    
+                button {
+                position: relative;
+                overflow: hidden;
+                transform: translateZ(0);
+                display: grid;
+                place-items: center;
+                height: 64px;
+                padding: 0 32px;
+                border: 0;
+                border-radius: 10px;
+                font-family: Poppins;
+                font-size: 18px;
+                color: #ffffff;
+                cursor: wait;
+                }
+
+                @keyframes loading {
+                0% {
+                    transform: translateX(25px);
+                }
+                100% {
+                    transform: translateX(-20px);
+                }
+                }
+
+                button > span {
+                position: relative;
+                z-index: 2;
+                }
+
+                button::before {
+                content: "";
+                position: absolute;
+                z-index: 1;
+                left: -100%;  
+                top: 0;
+                width: 300%;
+                height: 100%;
+                background: #F04037
+                    repeating-linear-gradient(
+                    60deg,
+                    transparent,
+                    transparent 10px,
+                    #F04037 10px,
+                    #ede2fd 20px
+                    );
+                
+                animation: loading 1s infinite linear;
                 }
                }
             }
