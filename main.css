@@ -22,4 +22,29 @@ header .container .header-omega {
   gap: 40px;
   padding-top: 23px;
   margin-bottom: 180px;
+}
+header .container .header-omega h2 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -0.75px;
+  color: #19191B;
+  transition: 0.5s ease-in-out;
+}
+header .container .header-omega h2:hover {
+  color: cadetblue;
+  transform: scale(1.1);
+}
+header .container .header-omega a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: -0.5px;
+  text-align: right;
+  color: #19191B;
+  transition: 0.5s ease-in-out;
+}
+header .container .header-omega a:hover {
+  color: #F04037;
 }/*# sourceMappingURL=main.css.map */
