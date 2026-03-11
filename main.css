@@ -114,4 +114,122 @@ header .container .header-container .dumaloq {
 header .container .header-container .dumaloq2 {
   padding-top: 250px;
   padding-left: 200px;
+}
+
+main .section1 {
+  background: #413E65;
+  height: 800px;
+  background-position: center;
+}
+main .section1 .container .section1-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 170px;
+  margin-top: 152px;
+}
+main .section1 .container .section1-container .cards .card {
+  width: 389px;
+  height: 154px;
+  background: white;
+  border-radius: 10px;
+  padding-top: 30px;
+  display: flex;
+  gap: 22px;
+  margin-bottom: 25px;
+}
+main .section1 .container .section1-container .cards .card .yumaloqcha img {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  background: rgba(240, 64, 55, 0.0980392157);
+  border-radius: 40%;
+  margin-left: 20px;
+}
+main .section1 .container .section1-container .cards .card .multiple h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -0.75px;
+  color: #19191B;
+  margin-bottom: 13px;
+}
+main .section1 .container .section1-container .cards .card .multiple p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+  color: #696871;
+  width: 240px;
+}
+main .section1 .container .section1-container .cards .card1 {
+  width: 389px;
+  height: 154px;
+  background: white;
+  border-radius: 10px;
+  padding-top: 30px;
+  display: flex;
+  gap: 22px;
+  margin-bottom: 25px;
+}
+main .section1 .container .section1-container .cards .card1 .yumaloqcha img {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  background: rgba(240, 64, 55, 0.0980392157);
+  border-radius: 40%;
+  margin-left: 20px;
+}
+main .section1 .container .section1-container .cards .card1 .multiple h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -0.75px;
+  color: #19191B;
+  margin-bottom: 13px;
+}
+main .section1 .container .section1-container .cards .card1 .multiple p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+  color: #696871;
+  width: 240px;
+}
+main .section1 .container .section1-container .cards .card2 {
+  width: 389px;
+  height: 154px;
+  background: white;
+  border-radius: 10px;
+  padding-top: 30px;
+  display: flex;
+  gap: 22px;
+  margin-bottom: 25px;
+}
+main .section1 .container .section1-container .cards .card2 .yumaloqcha img {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  background: rgba(240, 64, 55, 0.0980392157);
+  border-radius: 40%;
+  margin-left: 20px;
+}
+main .section1 .container .section1-container .cards .card2 .multiple h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -0.75px;
+  color: #19191B;
+  margin-bottom: 13px;
+}
+main .section1 .container .section1-container .cards .card2 .multiple p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: -0.5px;
+  color: #696871;
+  width: 240px;
 }/*# sourceMappingURL=main.css.map */

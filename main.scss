@@ -118,5 +118,146 @@ header{
     }
 }
 main{
-    
+    .section1{
+        background: #413E65;
+        height: 800px;
+        background-position: center;
+         .container{
+            .section1-container{
+               display: flex;
+               align-items: center;
+               justify-content: space-between; 
+               gap: 170px;
+               margin-top: 152px;
+               .cards{
+                  .card{
+                    width: 389px;
+                    height: 154px;
+                    background: white;
+                    border-radius: 10px;
+                     padding-top: 30px;
+                    display: flex;
+                    gap: 22px;
+                    margin-bottom: 25px;
+                    .yumaloqcha{
+                        img{
+                            padding-top: 20px;
+                            padding-left: 20px;
+                            padding-bottom: 20px;
+                            padding-right: 20px;
+                               background: #F0403719;
+                                border-radius: 40%;
+                                margin-left: 20px;
+                        }
+
+                    }
+
+                    .multiple{
+                          h2{
+                            font-weight: 700;
+                        font-size: 24px;
+                         line-height: 100%;
+                        letter-spacing: -0.75px;
+                        color: #19191B;
+                        margin-bottom: 13px;
+                      }
+                      p{
+                         font-weight: 400;
+                        font-size: 16px;
+                         line-height: 28px;
+                        letter-spacing: -0.5px;
+                        color: #696871;
+                        width: 240px;
+                      }
+                    }
+                }
+
+                   .card1{
+                    width: 389px;
+                    height: 154px;
+                    background: white;
+                    border-radius: 10px;
+                     padding-top: 30px;
+                    display: flex;
+                    gap: 22px;
+                    margin-bottom: 25px;
+                    .yumaloqcha{
+                        img{
+                            padding-top: 20px;
+                            padding-left: 20px;
+                            padding-bottom: 20px;
+                            padding-right: 20px;
+                               background: #F0403719;
+                                border-radius: 40%;
+                                margin-left: 20px;
+                        }
+
+                    }
+
+                    .multiple{
+                          h2{
+                            font-weight: 700;
+                        font-size: 24px;
+                         line-height: 100%;
+                        letter-spacing: -0.75px;
+                        color: #19191B;
+                        margin-bottom: 13px;
+                      }
+                      p{
+                         font-weight: 400;
+                        font-size: 16px;
+                         line-height: 28px;
+                        letter-spacing: -0.5px;
+                        color: #696871;
+                        width: 240px;
+                      }
+                    }
+                }
+
+                   .card2{
+                    width: 389px;
+                    height: 154px;
+                    background: white;
+                    border-radius: 10px;
+                     padding-top: 30px;
+                    display: flex;
+                    gap: 22px;
+                    margin-bottom: 25px;
+                    .yumaloqcha{
+                        img{
+                            padding-top: 20px;
+                            padding-left: 20px;
+                            padding-bottom: 20px;
+                            padding-right: 20px;
+                               background: #F0403719;
+                                border-radius: 40%;
+                                margin-left: 20px;
+                        }
+
+                    }
+
+                    .multiple{
+                          h2{
+                            font-weight: 700;
+                        font-size: 24px;
+                         line-height: 100%;
+                        letter-spacing: -0.75px;
+                        color: #19191B;
+                        margin-bottom: 13px;
+                      }
+                      p{
+                         font-weight: 400;
+                        font-size: 16px;
+                         line-height: 28px;
+                        letter-spacing: -0.5px;
+                        color: #696871;
+                        width: 240px;
+                      }
+                    }
+                }
+                
+               }
+            }
+        }
+    }
 }
