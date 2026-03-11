@@ -8,4 +8,18 @@
   max-width: 1120px;
   margin: 0 auto;
   padding: 15px;
+}
+
+header {
+  background-image: url(./img/BG\ \(3\).png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 800px;
+}
+header .container .header-omega {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding-top: 23px;
+  margin-bottom: 180px;
 }/*# sourceMappingURL=main.css.map */
